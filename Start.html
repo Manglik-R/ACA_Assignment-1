@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Scientific Calculator</title>
+        <link rel="icon" type='image/x-icon' href="favicon.ico" >
+        <link rel="stylesheet" href="./Style.css" >
+        
+    </head>
+    <body>
+        <form>
+            <input type="text" id="DISPLAY" value="" placeholder="">
+            <table>
+            
+                <tr>
+                    <td><input type="button" class="NUMBER N2" placeholder="7" value=7 onclick="display('7')"></td>
+                    <td><input type="button" class="NUMBER N2" placeholder="8" value=8 onclick="display('8')"></td>
+                    <td><input type="button" class="NUMBER N2" placeholder="9" value=9 onclick="display('9')"></td>
+                    <td><input type="button" class="NUMBER N2" placeholder="=" value="=" onclick="calculate()"></td>
+                    <td><input type="button" class="NUMBER N2" placeholder=")" value=')' onclick="display(')')"></td>
+                    <td><input type="button" class="OPERATION O2" placeholder="exp" value="exp" onclick="display('exp(')"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="button" class="NUMBER N2" placeholder="4" value=4 onclick="display('4')"></td>
+                    <td><input type="button" class="NUMBER N2" placeholder="5" value=5 onclick="display('5')"></td>
+                    <td><input type="button" class="NUMBER N2" placeholder="6" value=6 onclick="display('6')"></td>
+                    <td><input type="button" class="NUMBER N2" placeholder="AC" value="AC" onclick="AC()"></td>
+                    <td><input type="button" class="NUMBER N2" placeholder="(" value='(' onclick="display('(')"></td>
+                    <td><input type="button" class="OPERATION O2" placeholder="log" value="log" onclick="display('log(')"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="button" class="NUMBER N2" placeholder="1" value=1 onclick="display('1')"></td>
+                    <td><input type="button" class="NUMBER N2" placeholder="2" value=2 onclick="display('2')"></td>
+                    <td><input type="button" class="NUMBER N2" placeholder="3" value=3 onclick="display('3')"></td>
+                    <td><input type="button" class="NUMBER N2" placeholder="DE" value="DE" onclick="del()"></td>
+                    <td><input type="button" class="NUMBER N2" placeholder="." value=. onclick="display('.')"></td>
+                    <td><input type="button" class="OPERATION O2" placeholder="log10" value="log10" onclick="display('log10(')"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="button" class="NUMBER N2" placeholder="0" value=0 onclick="display('0')"></td>
+                    <td><input type="button" class="NUMBER N2" placeholder="+" value=+ onclick="display('+')"></td>
+                    <td><input type="button" class="NUMBER N2" placeholder="-" value=- onclick="display('-')"></td>
+                    <td><input type="button" class="NUMBER N2" placeholder="*" value=* onclick="display('*')"></td>
+                    <td><input type="button" class="NUMBER N2" placeholder="/" value=/ onclick="display('/')"></td>
+                    <td><input type="button" class="NUMBER N2" placeholder="**" value=** onclick="display('**')"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="button" class="OPERATION O2" placeholder="sin" value=sin onclick="display('sin(')"></td>
+                    <td><input type="button" class="OPERATION O2" placeholder="cos" value=cos onclick="display('cos(')"></td>
+                    <td><input type="button" class="OPERATION O2" placeholder="tan" value=tan onclick="display('tan(')"></td>
+                    <td><input type="button" class="OPERATION O2" placeholder="arcsin" value=arcsin onclick="display('arcsin(')"></td>
+                    <td><input type="button" class="OPERATION O2" placeholder="arccos" value=arccos onclick="display('arccos(')"></td>
+                    <td><input type="button" class="OPERATION O2" placeholder="arctan" value=arctan onclick="display('tan(')"></td>
+                </tr>
+        
+            </table>
+        </form>
+        <script src="CALC.js"></script>
+    </body>
+</html>

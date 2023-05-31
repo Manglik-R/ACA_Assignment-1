@@ -1,0 +1,65 @@
+.NUMBER{
+    color:black;
+    width:70px;
+    height:70px;
+    background-color:#b7d7e8;
+    font-size:36px;
+    padding: 1px;
+    margin: 2px;
+    border-radius: 30%;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.OPERATION{
+    color:black;
+    width:70px;
+    height:70px;
+    background-color:#b7d7e8;
+    font-size:20px;
+    padding: 1px;
+    margin: 2px;
+    border-radius: 30%;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+
+#DISPLAY{
+    color:black;
+    width: 450px;
+    height:80px;
+    background-color:#deeaee;
+    font-size: 35px;
+    margin: 15px;
+    text-align: right;
+}
+
+form{
+    background-color: #5F9EA0 ;
+    position: relative;
+    top:55px;
+    left: 400px;
+    width: 490px;
+    height: 520px;
+    border-radius: 6%;
+    box-shadow: 0 9px 9px 0 #87bdd8;
+}
+
+table{
+    margin-left: 10px;
+}
+
+body{
+    background-image: url(bkd.jpg);
+}
+
+.O2:hover{
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.24),0 4px 4px 0 rgba(0,0,0,0.24);
+}
+
+.N2:hover{
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.24),0 4px 4px 0 rgba(0,0,0,0.24);
+}
